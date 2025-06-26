@@ -1,0 +1,28 @@
+cpp
+CopyEdit
+int buzzer = 8; // Buzzer connected to pin 8
+
+void setup() {
+  // Nothing needed here
+}
+
+void loop() {
+  tone(buzzer, 262); // C4
+  delay(300);
+  tone(buzzer, 294); // D4
+  delay(300);
+  tone(buzzer, 330); // E4
+  delay(300);
+  tone(buzzer, 349); // F4
+  delay(300);
+  tone(buzzer, 392); // G4
+  delay(300);
+  tone(buzzer, 440); // A4
+  delay(300);
+  tone(buzzer, 494); // B4
+  delay(300);
+  tone(buzzer, 523); // C5
+  delay(300);
+  noTone(buzzer); // Stop sound
+  delay(1000);    // Wait before repeating
+}
