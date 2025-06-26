@@ -1,5 +1,4 @@
-cpp
-CopyEdit
+
 int buzzer = 8; // Buzzer connected to pin 8
 
 void setup() {
